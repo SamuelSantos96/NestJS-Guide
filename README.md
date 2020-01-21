@@ -30,3 +30,6 @@ export class AppModule {}
 
 Run Project
 npm run start:dev
+
+Create Module
+nest g module tasks // Ex.: tasks as the name of the module
