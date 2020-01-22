@@ -1,38 +1,56 @@
 # NestJS-Guide
 
 NestJS Zero to Hero - Modern TypeScript Back-end Development
-Source: https://www.udemy.com/course/nestjs-zero-to-hero/
 
-Setup
+Source: [udemy](https://www.udemy.com/course/nestjs-zero-to-hero/)
+
+## Setup
+```
 npm install -g @nestjs/cli
 
 nest --version
+```
+## Create New Project
+```
+nest new nestjs-task-management
+```
 
-Create New Project
-nest new nestjs-task-management // Ex.: nestjs-task-management as the name of the project
+**Delete following files from nestjs-task-management:**
 
-Delete following files from nestjs-task-management:
 /src/app.controller.spec.ts
+
 /src/app.controller.ts
+
 /src/app.service.ts
 
-At app.module.ts remove commented lines:
+**At app.module.ts remove commented lines:**
+```typescript
 import { Module } from '@nestjs/common';
-#import { AppController } from './app.controller';
-#import { AppService } from './app.service';
+// import { AppController } from './app.controller';
+// import { AppService } from './app.service';
 
 @Module({
-imports: [],
-#controllers: [AppController],
-#providers: [AppService],
+    imports: [],
+    // controllers: [AppController],
+    // providers: [AppService],
 })
 export class AppModule {}
-
-Run Project
+```
+## Run Project
+```shell
 npm run start:dev
+```
+### Create Module
+```shell
+nest g module tasks
+```
 
-Create Module
-nest g module tasks // Ex.: tasks as the name of the module
+### Create Controller
+```shell
+nest g controller tasks --no-spec
+```
 
-Create Controller
-nest g controller tasks --no-spec   // Ex.: tasks as the name of the controller
+### Create Service
+```shell
+nest g service tasks --no-spec
+```
