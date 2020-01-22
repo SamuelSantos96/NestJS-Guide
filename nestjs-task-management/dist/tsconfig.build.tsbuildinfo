@@ -1101,8 +1101,16 @@
         "version": "e0e01013f40a172c13d53c88ce2695741df27852da7ede9e2e336c86c43c8ec5",
         "signature": "e0e01013f40a172c13d53c88ce2695741df27852da7ede9e2e336c86c43c8ec5"
       },
+      "../src/tasks/tasks.service.ts": {
+        "version": "2643d5f6313eeb71d1bafe76cabd572952f8d6ffcfec8190b1dd065024d6b296",
+        "signature": "a8112d4f4bf30dbe69c733403fdaf7743685c656658ffe0983e137c9c1dbae7a"
+      },
+      "../src/tasks/tasks.controller.ts": {
+        "version": "1531caf9c82c9a96785ebd044d68908bf4f1022548f14a222da68fba0d90495b",
+        "signature": "6f68d94b49b9366ca3fbcad4fc8a1597b84cede49071333b3cb176541f91815d"
+      },
       "../src/tasks/tasks.module.ts": {
-        "version": "f82516bc7a81e0f272da973c5cb0d634ebd48b179af7b4ff2d616213b03bb5a3",
+        "version": "814bcd815d9da372cb45e4bf74d39ae34e68d8edf9004d979764d98738970697",
         "signature": "ea1c4783c6622473a62fccd9b4ae61a34ba8ef2e1561f6f66d0260cdd232b10e"
       },
       "../src/app.module.ts": {
@@ -3583,8 +3591,25 @@
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "../src/tasks/tasks.service.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../src/tasks/tasks.controller.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../src/tasks/tasks.service.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "../src/tasks/tasks.module.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
+        "../src/tasks/tasks.controller.ts",
+        "../src/tasks/tasks.service.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
@@ -6922,6 +6947,9 @@
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../src/tasks/tasks.controller.ts": [
+        "../src/tasks/tasks.service.ts"
       ]
     },
     "semanticDiagnosticsPerFile": [
@@ -7272,7 +7300,9 @@
       "../node_modules/@types/webpack/index.d.ts",
       "../node_modules/@types/yargs-parser/index.d.ts",
       "../node_modules/@types/yargs/index.d.ts",
+      "../src/tasks/tasks.service.ts",
       "../src/tasks/tasks.module.ts",
+      "../src/tasks/tasks.controller.ts",
       "../src/app.module.ts"
     ]
   },
