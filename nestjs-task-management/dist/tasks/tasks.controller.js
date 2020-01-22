@@ -23,7 +23,7 @@ __decorate([
     common_1.Get(),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", []),
-    __metadata("design:returntype", void 0)
+    __metadata("design:returntype", Array)
 ], TasksController.prototype, "getAllTasks", null);
 TasksController = __decorate([
     common_1.Controller('tasks'),

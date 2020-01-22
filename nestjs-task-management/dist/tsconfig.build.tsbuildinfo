@@ -1101,13 +1101,17 @@
         "version": "e0e01013f40a172c13d53c88ce2695741df27852da7ede9e2e336c86c43c8ec5",
         "signature": "e0e01013f40a172c13d53c88ce2695741df27852da7ede9e2e336c86c43c8ec5"
       },
+      "../src/tasks/task.model.ts": {
+        "version": "c3537ffefda7a28a513f0bffd7ecc8bf2564438a51f1c0aaff73c22646788369",
+        "signature": "073608c48a2ed2fb16337457c2fb8c170f6781dd05fd5c8e88e3753938588899"
+      },
       "../src/tasks/tasks.service.ts": {
-        "version": "2643d5f6313eeb71d1bafe76cabd572952f8d6ffcfec8190b1dd065024d6b296",
-        "signature": "a8112d4f4bf30dbe69c733403fdaf7743685c656658ffe0983e137c9c1dbae7a"
+        "version": "0d48d500eb526f3303231dc7e73905674336d5d6d6a212088edfda19a0da5324",
+        "signature": "325c1ee18d06ae07f64a6475b0ba72c6b7b05440b84b533512406217e920a472"
       },
       "../src/tasks/tasks.controller.ts": {
-        "version": "1531caf9c82c9a96785ebd044d68908bf4f1022548f14a222da68fba0d90495b",
-        "signature": "6f68d94b49b9366ca3fbcad4fc8a1597b84cede49071333b3cb176541f91815d"
+        "version": "d4f4df6d78ea4d987430b0b2bbadc6d85e6434dd86426ed627c61fdd2b300724",
+        "signature": "3273960df5316e63e019bd7b533fdbf5e452f48761d7bd0c15236660c9a4cee3"
       },
       "../src/tasks/tasks.module.ts": {
         "version": "814bcd815d9da372cb45e4bf74d39ae34e68d8edf9004d979764d98738970697",
@@ -3591,8 +3595,15 @@
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "../src/tasks/task.model.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "../src/tasks/tasks.service.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
+        "../src/tasks/task.model.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
@@ -3601,6 +3612,7 @@
       "../src/tasks/tasks.controller.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
         "../src/tasks/tasks.service.ts",
+        "../src/tasks/task.model.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
@@ -6376,6 +6388,13 @@
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "../src/tasks/tasks.service.ts": [
+        "../src/tasks/task.model.ts"
+      ],
+      "../src/tasks/tasks.controller.ts": [
+        "../src/tasks/tasks.service.ts",
+        "../src/tasks/task.model.ts"
+      ],
       "../node_modules/@nestjs/core/adapters/http-adapter.d.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
         "../node_modules/@nestjs/common/interfaces/index.d.ts",
@@ -6947,9 +6966,6 @@
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../src/tasks/tasks.controller.ts": [
-        "../src/tasks/tasks.service.ts"
       ]
     },
     "semanticDiagnosticsPerFile": [
@@ -7228,6 +7244,9 @@
       "../node_modules/@nestjs/common/utils/forward-ref.util.d.ts",
       "../node_modules/@nestjs/common/utils/index.d.ts",
       "../node_modules/@nestjs/common/index.d.ts",
+      "../src/tasks/task.model.ts",
+      "../src/tasks/tasks.service.ts",
+      "../src/app.module.ts",
       "../node_modules/@nestjs/core/adapters/http-adapter.d.ts",
       "../node_modules/@nestjs/core/adapters/index.d.ts",
       "../node_modules/@nestjs/core/injector/module-token-factory.d.ts",
@@ -7300,10 +7319,8 @@
       "../node_modules/@types/webpack/index.d.ts",
       "../node_modules/@types/yargs-parser/index.d.ts",
       "../node_modules/@types/yargs/index.d.ts",
-      "../src/tasks/tasks.service.ts",
-      "../src/tasks/tasks.module.ts",
       "../src/tasks/tasks.controller.ts",
-      "../src/app.module.ts"
+      "../src/tasks/tasks.module.ts"
     ]
   },
   "version": "3.7.5"
