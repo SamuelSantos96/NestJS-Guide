@@ -28,4 +28,10 @@ export class TasksService {
         this.tasks.push(task);
         return task;
     }
+
+    deleteTask(id: string): void {
+        // this.tasks = this.tasks.slice(0, this.tasks.indexOf(this.getTaskById(id)));
+        this.tasks = this.tasks.filter(task => task.id !== id);
+        console.log(`Task ${id} - Deleted!`);
+    }
 }

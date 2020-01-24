@@ -30,6 +30,10 @@ let TasksService = class TasksService {
         this.tasks.push(task);
         return task;
     }
+    deleteTask(id) {
+        this.tasks = this.tasks.filter(task => task.id !== id);
+        console.log(`Task ${id} - Deleted!`);
+    }
 };
 TasksService = __decorate([
     common_1.Injectable()
