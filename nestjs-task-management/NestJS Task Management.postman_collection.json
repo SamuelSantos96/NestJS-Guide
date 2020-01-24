@@ -45,6 +45,26 @@
 			"response": []
 		},
 		{
+			"name": "Delete Task",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/tasks/f43f4670-3ebd-11ea-b5ae-c5bf1729bcde",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"tasks",
+						"f43f4670-3ebd-11ea-b5ae-c5bf1729bcde"
+					]
+				}
+			},
+			"response": []
+		},
+		{
 			"name": "Create Task",
 			"request": {
 				"method": "POST",
@@ -80,6 +100,44 @@
 					"port": "3000",
 					"path": [
 						"tasks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Task Status",
+			"request": {
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "status",
+							"value": "IN_PROGRESS",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/tasks/e2d21680-3ec5-11ea-8fc2-07abe98047a4/status",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"tasks",
+						"e2d21680-3ec5-11ea-8fc2-07abe98047a4",
+						"status"
 					]
 				}
 			},

@@ -1110,12 +1110,12 @@
         "signature": "17c75bc9b8439dc8a3c61904f40cfd636da1425d28d0aa77d62ef9cdab721779"
       },
       "../src/tasks/tasks.service.ts": {
-        "version": "3d0a83b71cd5914944688b637cd3f3d01f4bb5a7e784b94797406a1f077b3756",
-        "signature": "482966cb5a85f9a687cb386e8a1dd56c09df7febf392d46269db1974290bd5bc"
+        "version": "b254ed930201108bd39b280b305ea4408cd6d79fad11d100f05c9b7b62e80ff2",
+        "signature": "b0b38f4e0c792837b34f04ccfef6bad5ebfbe1557bb065f5a027767cd9cacdbb"
       },
       "../src/tasks/tasks.controller.ts": {
-        "version": "8a6f8ab03f9572cda7d97674e21d8969f0e542fcf455d5539b74386421a0fd24",
-        "signature": "2158cd1dc70a503bb3785f6dbe27d609011cf96b07720e5a78d29f2108a43a14"
+        "version": "12fb2a06c9947d708023cd58bea2c1ef4bfec77d50fd0cee1b19d62abe4d4a2b",
+        "signature": "b633f68659c7e97f78ca22938ccc7ea27264d8d8d270a296b0cb2d8779d02f70"
       },
       "../src/tasks/tasks.module.ts": {
         "version": "b1b8300d18b46ce3b350fa38cfff950379302ba2657c5a85ccfdf614940f9f8c",
@@ -7260,7 +7260,7 @@
       "../node_modules/@nestjs/common/index.d.ts",
       "../src/tasks/task.model.ts",
       "../src/tasks/dto/create-task.dto.ts",
-      "../src/tasks/tasks.controller.ts",
+      "../src/tasks/tasks.service.ts",
       "../src/tasks/tasks.module.ts",
       "../src/app.module.ts",
       "../node_modules/@nestjs/core/adapters/http-adapter.d.ts",
@@ -7335,7 +7335,7 @@
       "../node_modules/@types/webpack/index.d.ts",
       "../node_modules/@types/yargs-parser/index.d.ts",
       "../node_modules/@types/yargs/index.d.ts",
-      "../src/tasks/tasks.service.ts"
+      "../src/tasks/tasks.controller.ts"
     ]
   },
   "version": "3.7.5"
