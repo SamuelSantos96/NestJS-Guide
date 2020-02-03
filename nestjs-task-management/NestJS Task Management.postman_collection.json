@@ -25,6 +25,56 @@
 			"response": []
 		},
 		{
+			"name": "Get Tasks with Filters (Status)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/tasks?status=DONE",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"tasks"
+					],
+					"query": [
+						{
+							"key": "status",
+							"value": "DONE"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Tasks with Filters (Search)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/tasks?search=supp",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"tasks"
+					],
+					"query": [
+						{
+							"key": "search",
+							"value": "supp"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
 			"name": "Get Task by ID",
 			"request": {
 				"method": "GET",
@@ -122,13 +172,13 @@
 					"urlencoded": [
 						{
 							"key": "status",
-							"value": "IN_PROGRESS",
+							"value": "DONE",
 							"type": "text"
 						}
 					]
 				},
 				"url": {
-					"raw": "http://localhost:3000/tasks/e2d21680-3ec5-11ea-8fc2-07abe98047a4/status",
+					"raw": "http://localhost:3000/tasks/fb46e2f0-467b-11ea-8f32-51180813bc3d/status",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -136,7 +186,7 @@
 					"port": "3000",
 					"path": [
 						"tasks",
-						"e2d21680-3ec5-11ea-8fc2-07abe98047a4",
+						"fb46e2f0-467b-11ea-8f32-51180813bc3d",
 						"status"
 					]
 				}
