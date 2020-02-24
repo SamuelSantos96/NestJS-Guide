@@ -39,7 +39,7 @@ let TasksController = class TasksController {
     deleteTask(id) {
         this.taskService.deleteTask(id);
     }
-    updateTask(id, status) {
+    updateTaskStatus(id, status) {
         return this.taskService.updateTaskStatus(id, status);
     }
 };
@@ -78,7 +78,7 @@ __decorate([
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [String, String]),
     __metadata("design:returntype", Object)
-], TasksController.prototype, "updateTask", null);
+], TasksController.prototype, "updateTaskStatus", null);
 TasksController = __decorate([
     common_1.Controller('tasks'),
     __metadata("design:paramtypes", [tasks_service_1.TasksService])

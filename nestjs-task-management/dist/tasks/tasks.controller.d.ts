@@ -9,5 +9,5 @@ export declare class TasksController {
     getTaskById(id: string): Task;
     createTask(createTaskDto: CreateTaskDto): Task;
     deleteTask(id: string): void;
-    updateTask(id: string, status: TaskStatus): Task;
+    updateTaskStatus(id: string, status: TaskStatus): Task;
 }

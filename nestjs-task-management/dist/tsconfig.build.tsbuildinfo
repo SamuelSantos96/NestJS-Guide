@@ -1186,7 +1186,7 @@
         "signature": "7db58ae73f92fab95ea69033443335616faed1d77f6e1a7ce2042261a702f728"
       },
       "../src/tasks/tasks.service.ts": {
-        "version": "111032cbd7405dc28dc82a9e4e3621ab49beb1962b40bb09cf0e12ff12a1166b",
+        "version": "198164568cb55978dc937744a842663de9bcde4653423e8470aadd1740606c44",
         "signature": "31b51d73cdf0ff079eb288e130f385a0ddbcfdfe1b00799071cb6f788e499f98"
       },
       "../src/tasks/pipes/task-status-validation.pipe.ts": {
@@ -1194,8 +1194,8 @@
         "signature": "62d21518af60cca3b850fd793d28a7abecdf240e956eeb32887f03f79ee9d710"
       },
       "../src/tasks/tasks.controller.ts": {
-        "version": "8ed95f67086a6d48571ee02199169b0febab2cc392e6fd9181caac36bba9b057",
-        "signature": "2f836736be8daf8e260124749dad6c5bc02f41df07d1e3d97a2cab078202adfd"
+        "version": "5ff4e81edb2149da25170760ec444d7eba7b2c6c39d783cafff93f8139dcb23f",
+        "signature": "ec9db465b0422d189fbecf07c474e5292262f2a46e002433838b7a1b10dd2179"
       },
       "../src/tasks/tasks.module.ts": {
         "version": "b1b8300d18b46ce3b350fa38cfff950379302ba2657c5a85ccfdf614940f9f8c",
@@ -7669,9 +7669,7 @@
       "../node_modules/class-validator/index.d.ts",
       "../src/tasks/dto/create-task.dto.ts",
       "../src/tasks/dto/get-tasks.dto.ts",
-      "../src/tasks/tasks.service.ts",
       "../src/tasks/pipes/task-status-validation.pipe.ts",
-      "../src/tasks/tasks.module.ts",
       "../src/app.module.ts",
       "../node_modules/@nestjs/core/adapters/http-adapter.d.ts",
       "../node_modules/@nestjs/core/adapters/index.d.ts",
@@ -7745,7 +7743,9 @@
       "../node_modules/@types/webpack/index.d.ts",
       "../node_modules/@types/yargs-parser/index.d.ts",
       "../node_modules/@types/yargs/index.d.ts",
-      "../src/tasks/tasks.controller.ts"
+      "../src/tasks/tasks.service.ts",
+      "../src/tasks/tasks.controller.ts",
+      "../src/tasks/tasks.module.ts"
     ]
   },
   "version": "3.7.5"
