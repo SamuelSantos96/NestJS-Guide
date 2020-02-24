@@ -1182,7 +1182,7 @@
         "signature": "17c75bc9b8439dc8a3c61904f40cfd636da1425d28d0aa77d62ef9cdab721779"
       },
       "../src/tasks/dto/get-tasks.dto.ts": {
-        "version": "8f27432e48861db853d5faec55b05c79841820acdf2d5cf69083481d7b9611dd",
+        "version": "e2fc9c81de5cf847048e0bec9471c5841f7f3cc38143873e85bf946b5d42c45b",
         "signature": "7db58ae73f92fab95ea69033443335616faed1d77f6e1a7ce2042261a702f728"
       },
       "../src/tasks/tasks.service.ts": {
@@ -1194,7 +1194,7 @@
         "signature": "62d21518af60cca3b850fd793d28a7abecdf240e956eeb32887f03f79ee9d710"
       },
       "../src/tasks/tasks.controller.ts": {
-        "version": "5ff4e81edb2149da25170760ec444d7eba7b2c6c39d783cafff93f8139dcb23f",
+        "version": "93f7283ad31f2364594f356c0a3447cdf635c4f87bcccf85f5eef8883ee69a11",
         "signature": "ec9db465b0422d189fbecf07c474e5292262f2a46e002433838b7a1b10dd2179"
       },
       "../src/tasks/tasks.module.ts": {
@@ -3835,6 +3835,7 @@
       ],
       "../src/tasks/dto/get-tasks.dto.ts": [
         "../src/tasks/task.model.ts",
+        "../node_modules/class-validator/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
@@ -7669,7 +7670,9 @@
       "../node_modules/class-validator/index.d.ts",
       "../src/tasks/dto/create-task.dto.ts",
       "../src/tasks/dto/get-tasks.dto.ts",
+      "../src/tasks/tasks.service.ts",
       "../src/tasks/pipes/task-status-validation.pipe.ts",
+      "../src/tasks/tasks.module.ts",
       "../src/app.module.ts",
       "../node_modules/@nestjs/core/adapters/http-adapter.d.ts",
       "../node_modules/@nestjs/core/adapters/index.d.ts",
@@ -7743,9 +7746,7 @@
       "../node_modules/@types/webpack/index.d.ts",
       "../node_modules/@types/yargs-parser/index.d.ts",
       "../node_modules/@types/yargs/index.d.ts",
-      "../src/tasks/tasks.service.ts",
-      "../src/tasks/tasks.controller.ts",
-      "../src/tasks/tasks.module.ts"
+      "../src/tasks/tasks.controller.ts"
     ]
   },
   "version": "3.7.5"
