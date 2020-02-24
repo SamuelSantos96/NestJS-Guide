@@ -1186,7 +1186,7 @@
         "signature": "7db58ae73f92fab95ea69033443335616faed1d77f6e1a7ce2042261a702f728"
       },
       "../src/tasks/tasks.service.ts": {
-        "version": "c52f59c05a7b9531abe4a50d241e3760afd7218eb858cd0a335b17628f6321d3",
+        "version": "111032cbd7405dc28dc82a9e4e3621ab49beb1962b40bb09cf0e12ff12a1166b",
         "signature": "31b51d73cdf0ff079eb288e130f385a0ddbcfdfe1b00799071cb6f788e499f98"
       },
       "../src/tasks/tasks.controller.ts": {
