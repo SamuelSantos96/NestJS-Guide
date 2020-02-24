@@ -1189,8 +1189,12 @@
         "version": "111032cbd7405dc28dc82a9e4e3621ab49beb1962b40bb09cf0e12ff12a1166b",
         "signature": "31b51d73cdf0ff079eb288e130f385a0ddbcfdfe1b00799071cb6f788e499f98"
       },
+      "../src/tasks/pipes/task-status-validation.pipe.ts": {
+        "version": "f428a6e3ca06c4cb531f0b101c4994092ef93df6c6ca8ceb6681aa158e7ed570",
+        "signature": "62d21518af60cca3b850fd793d28a7abecdf240e956eeb32887f03f79ee9d710"
+      },
       "../src/tasks/tasks.controller.ts": {
-        "version": "700e11922784df86aa69e06e3fcafd89e645982bb4aaef80ef07669966f399c6",
+        "version": "8ed95f67086a6d48571ee02199169b0febab2cc392e6fd9181caac36bba9b057",
         "signature": "2f836736be8daf8e260124749dad6c5bc02f41df07d1e3d97a2cab078202adfd"
       },
       "../src/tasks/tasks.module.ts": {
@@ -3846,12 +3850,21 @@
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "../src/tasks/pipes/task-status-validation.pipe.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../src/tasks/task.model.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "../src/tasks/tasks.controller.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
         "../src/tasks/tasks.service.ts",
         "../src/tasks/task.model.ts",
         "../src/tasks/dto/create-task.dto.ts",
         "../src/tasks/dto/get-tasks.dto.ts",
+        "../src/tasks/pipes/task-status-validation.pipe.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
@@ -6776,6 +6789,10 @@
         "../src/tasks/dto/get-tasks.dto.ts",
         "../src/tasks/dto/create-task.dto.ts"
       ],
+      "../src/tasks/pipes/task-status-validation.pipe.ts": [
+        "../src/tasks/task.model.ts",
+        "../node_modules/@nestjs/common/index.d.ts"
+      ],
       "../src/tasks/tasks.controller.ts": [
         "../src/tasks/tasks.service.ts",
         "../src/tasks/dto/get-tasks.dto.ts",
@@ -7652,7 +7669,8 @@
       "../node_modules/class-validator/index.d.ts",
       "../src/tasks/dto/create-task.dto.ts",
       "../src/tasks/dto/get-tasks.dto.ts",
-      "../src/tasks/tasks.controller.ts",
+      "../src/tasks/tasks.service.ts",
+      "../src/tasks/pipes/task-status-validation.pipe.ts",
       "../src/tasks/tasks.module.ts",
       "../src/app.module.ts",
       "../node_modules/@nestjs/core/adapters/http-adapter.d.ts",
@@ -7727,7 +7745,7 @@
       "../node_modules/@types/webpack/index.d.ts",
       "../node_modules/@types/yargs-parser/index.d.ts",
       "../node_modules/@types/yargs/index.d.ts",
-      "../src/tasks/tasks.service.ts"
+      "../src/tasks/tasks.controller.ts"
     ]
   },
   "version": "3.7.5"
