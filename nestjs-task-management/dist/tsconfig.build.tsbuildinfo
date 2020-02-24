@@ -1186,7 +1186,7 @@
         "signature": "7db58ae73f92fab95ea69033443335616faed1d77f6e1a7ce2042261a702f728"
       },
       "../src/tasks/tasks.service.ts": {
-        "version": "d0eee7f825506da0cf5c184b0f2b969a5281029402edf67dfe4ad78c56abd4a8",
+        "version": "c52f59c05a7b9531abe4a50d241e3760afd7218eb858cd0a335b17628f6321d3",
         "signature": "31b51d73cdf0ff079eb288e130f385a0ddbcfdfe1b00799071cb6f788e499f98"
       },
       "../src/tasks/tasks.controller.ts": {
@@ -6627,7 +6627,142 @@
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "../node_modules/class-validator/validation/validationerror.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/class-validator/validation/validatoroptions.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/class-validator/validation-schema/validationschema.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/class-validator/container.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "../node_modules/@types/validator/index.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/class-validator/validation/validationtypeoptions.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/class-validator/validation/validationarguments.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/class-validator/decorator/validationoptions.d.ts": [
+        "../node_modules/class-validator/validation/validationarguments.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/class-validator/decorator/decorators.d.ts": [
+        "../node_modules/class-validator/validation/validationtypeoptions.d.ts",
+        "../node_modules/class-validator/decorator/validationoptions.d.ts",
+        "../node_modules/@types/validator/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/class-validator/validation/validatorconstraintinterface.d.ts": [
+        "../node_modules/class-validator/validation/validationarguments.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/class-validator/validation/validationtypes.d.ts": [
+        "../node_modules/class-validator/validation/validationarguments.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/class-validator/metadata/validationmetadataargs.d.ts": [
+        "../node_modules/class-validator/decorator/validationoptions.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/class-validator/metadata/validationmetadata.d.ts": [
+        "../node_modules/class-validator/metadata/validationmetadataargs.d.ts",
+        "../node_modules/class-validator/validation/validationarguments.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/class-validator/validation/validator.d.ts": [
+        "../node_modules/class-validator/metadata/validationmetadata.d.ts",
+        "../node_modules/class-validator/validation/validationerror.d.ts",
+        "../node_modules/class-validator/validation/validationtypeoptions.d.ts",
+        "../node_modules/class-validator/validation/validatoroptions.d.ts",
+        "../node_modules/@types/validator/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/class-validator/register-decorator.d.ts": [
+        "../node_modules/class-validator/validation/validatoroptions.d.ts",
+        "../node_modules/class-validator/validation/validatorconstraintinterface.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/class-validator/metadata/constraintmetadata.d.ts": [
+        "../node_modules/class-validator/validation/validatorconstraintinterface.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/class-validator/metadata/metadatastorage.d.ts": [
+        "../node_modules/class-validator/metadata/validationmetadata.d.ts",
+        "../node_modules/class-validator/metadata/constraintmetadata.d.ts",
+        "../node_modules/class-validator/validation-schema/validationschema.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../node_modules/class-validator/index.d.ts": [
+        "../node_modules/class-validator/validation/validationerror.d.ts",
+        "../node_modules/class-validator/validation/validatoroptions.d.ts",
+        "../node_modules/class-validator/validation-schema/validationschema.d.ts",
+        "../node_modules/class-validator/container.d.ts",
+        "../node_modules/class-validator/decorator/decorators.d.ts",
+        "../node_modules/class-validator/decorator/validationoptions.d.ts",
+        "../node_modules/class-validator/validation/validatorconstraintinterface.d.ts",
+        "../node_modules/class-validator/validation/validationtypeoptions.d.ts",
+        "../node_modules/class-validator/validation/validationarguments.d.ts",
+        "../node_modules/class-validator/validation/validationtypes.d.ts",
+        "../node_modules/class-validator/validation/validator.d.ts",
+        "../node_modules/class-validator/register-decorator.d.ts",
+        "../node_modules/class-validator/metadata/metadatastorage.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
@@ -7218,163 +7353,9 @@
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../node_modules/class-validator/validation/validationerror.d.ts": [
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../node_modules/class-validator/index.d.ts": [
-        "../node_modules/class-validator/validation/validationerror.d.ts",
-        "../node_modules/class-validator/validation/validatoroptions.d.ts",
-        "../node_modules/class-validator/validation-schema/validationschema.d.ts",
-        "../node_modules/class-validator/container.d.ts",
-        "../node_modules/class-validator/decorator/decorators.d.ts",
-        "../node_modules/class-validator/decorator/validationoptions.d.ts",
-        "../node_modules/class-validator/validation/validatorconstraintinterface.d.ts",
-        "../node_modules/class-validator/validation/validationtypeoptions.d.ts",
-        "../node_modules/class-validator/validation/validationarguments.d.ts",
-        "../node_modules/class-validator/validation/validationtypes.d.ts",
-        "../node_modules/class-validator/validation/validator.d.ts",
-        "../node_modules/class-validator/register-decorator.d.ts",
-        "../node_modules/class-validator/metadata/metadatastorage.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../node_modules/class-validator/validation/validator.d.ts": [
-        "../node_modules/class-validator/metadata/validationmetadata.d.ts",
-        "../node_modules/class-validator/validation/validationerror.d.ts",
-        "../node_modules/class-validator/validation/validationtypeoptions.d.ts",
-        "../node_modules/class-validator/validation/validatoroptions.d.ts",
-        "../node_modules/@types/validator/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../node_modules/class-validator/validation/validatoroptions.d.ts": [
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../node_modules/class-validator/register-decorator.d.ts": [
-        "../node_modules/class-validator/validation/validatoroptions.d.ts",
-        "../node_modules/class-validator/validation/validatorconstraintinterface.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../node_modules/class-validator/validation-schema/validationschema.d.ts": [
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../node_modules/class-validator/metadata/metadatastorage.d.ts": [
-        "../node_modules/class-validator/metadata/validationmetadata.d.ts",
-        "../node_modules/class-validator/metadata/constraintmetadata.d.ts",
-        "../node_modules/class-validator/validation-schema/validationschema.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../node_modules/class-validator/container.d.ts": [
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../node_modules/class-validator/validation/validationtypeoptions.d.ts": [
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../node_modules/class-validator/decorator/decorators.d.ts": [
-        "../node_modules/class-validator/validation/validationtypeoptions.d.ts",
-        "../node_modules/class-validator/decorator/validationoptions.d.ts",
-        "../node_modules/@types/validator/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../node_modules/class-validator/validation/validationarguments.d.ts": [
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../node_modules/class-validator/metadata/validationmetadata.d.ts": [
-        "../node_modules/class-validator/metadata/validationmetadataargs.d.ts",
-        "../node_modules/class-validator/validation/validationarguments.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../node_modules/class-validator/validation/validationtypes.d.ts": [
-        "../node_modules/class-validator/validation/validationarguments.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../node_modules/class-validator/validation/validatorconstraintinterface.d.ts": [
-        "../node_modules/class-validator/validation/validationarguments.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../node_modules/class-validator/metadata/constraintmetadata.d.ts": [
-        "../node_modules/class-validator/validation/validatorconstraintinterface.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../node_modules/class-validator/decorator/validationoptions.d.ts": [
-        "../node_modules/class-validator/validation/validationarguments.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../node_modules/class-validator/metadata/validationmetadataargs.d.ts": [
-        "../node_modules/class-validator/decorator/validationoptions.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
       ]
     },
     "semanticDiagnosticsPerFile": [
-      "../node_modules/class-validator/validation/validationerror.d.ts",
-      "../node_modules/class-validator/index.d.ts",
-      "../src/tasks/dto/create-task.dto.ts",
-      "../node_modules/class-validator/validation/validator.d.ts",
-      "../node_modules/class-validator/validation/validatoroptions.d.ts",
-      "../node_modules/class-validator/register-decorator.d.ts",
-      "../node_modules/class-validator/validation-schema/validationschema.d.ts",
-      "../node_modules/class-validator/metadata/metadatastorage.d.ts",
-      "../node_modules/class-validator/container.d.ts",
-      "../node_modules/class-validator/validation/validationtypeoptions.d.ts",
-      "../node_modules/class-validator/decorator/decorators.d.ts",
-      "../node_modules/class-validator/validation/validationarguments.d.ts",
-      "../node_modules/class-validator/metadata/validationmetadata.d.ts",
-      "../node_modules/class-validator/validation/validationtypes.d.ts",
-      "../node_modules/class-validator/validation/validatorconstraintinterface.d.ts",
-      "../node_modules/class-validator/metadata/constraintmetadata.d.ts",
-      "../node_modules/class-validator/decorator/validationoptions.d.ts",
-      "../node_modules/class-validator/metadata/validationmetadataargs.d.ts",
-      "../src/tasks/tasks.controller.ts",
       "../node_modules/typescript/lib/lib.es5.d.ts",
       "../node_modules/typescript/lib/lib.es2015.d.ts",
       "../node_modules/typescript/lib/lib.es2016.d.ts",
@@ -7651,9 +7632,27 @@
       "../node_modules/@nestjs/common/utils/index.d.ts",
       "../node_modules/@nestjs/common/index.d.ts",
       "../src/tasks/task.model.ts",
+      "../node_modules/class-validator/validation/validationerror.d.ts",
+      "../node_modules/class-validator/validation/validatoroptions.d.ts",
+      "../node_modules/class-validator/validation-schema/validationschema.d.ts",
+      "../node_modules/class-validator/container.d.ts",
       "../node_modules/@types/validator/index.d.ts",
+      "../node_modules/class-validator/validation/validationtypeoptions.d.ts",
+      "../node_modules/class-validator/validation/validationarguments.d.ts",
+      "../node_modules/class-validator/decorator/validationoptions.d.ts",
+      "../node_modules/class-validator/decorator/decorators.d.ts",
+      "../node_modules/class-validator/validation/validatorconstraintinterface.d.ts",
+      "../node_modules/class-validator/validation/validationtypes.d.ts",
+      "../node_modules/class-validator/metadata/validationmetadataargs.d.ts",
+      "../node_modules/class-validator/metadata/validationmetadata.d.ts",
+      "../node_modules/class-validator/validation/validator.d.ts",
+      "../node_modules/class-validator/register-decorator.d.ts",
+      "../node_modules/class-validator/metadata/constraintmetadata.d.ts",
+      "../node_modules/class-validator/metadata/metadatastorage.d.ts",
+      "../node_modules/class-validator/index.d.ts",
+      "../src/tasks/dto/create-task.dto.ts",
       "../src/tasks/dto/get-tasks.dto.ts",
-      "../src/tasks/tasks.service.ts",
+      "../src/tasks/tasks.controller.ts",
       "../src/tasks/tasks.module.ts",
       "../src/app.module.ts",
       "../node_modules/@nestjs/core/adapters/http-adapter.d.ts",
@@ -7727,7 +7726,8 @@
       "../node_modules/@types/webpack-sources/index.d.ts",
       "../node_modules/@types/webpack/index.d.ts",
       "../node_modules/@types/yargs-parser/index.d.ts",
-      "../node_modules/@types/yargs/index.d.ts"
+      "../node_modules/@types/yargs/index.d.ts",
+      "../src/tasks/tasks.service.ts"
     ]
   },
   "version": "3.7.5"
