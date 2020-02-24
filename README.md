@@ -54,3 +54,8 @@ nest g controller tasks --no-spec
 ```shell
 nest g service tasks --no-spec
 ```
+
+### Class Validator and Class Transformer
+```shell
+npm i class-validator class-transformer
+```
